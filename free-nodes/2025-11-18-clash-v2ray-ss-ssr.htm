@@ -429,17 +429,18 @@ A：理论上可以，但同时运行可能会造成冲突，建议仅启用一�
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2025-11-17-node-share.htm">APP机场 - 11月17日21.2M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></p>
+        <p>下一个：<a href="/free-nodes/2025-11-19-clash-verge-rev-github.htm">APP机场 - 11月19日20.8M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VLess 为什么被认为是未来趋势？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 如何实现精确域名分流？</h5></div>
     <div class="panel-body">
-        VLess 去掉了内置加密层，改为依赖外部 TLS 进行安全通信，这使其更轻量化且更灵活。它能与 Hysteria、Reality 等现代传输方式结合使用，适应性更强，是取代 Vmess 的新标准。<hr />    </div>
+        Sing-box 可以按域名设置分流规则，将不同流量发送到指定节点。结合策略组使用，可实现网页、视频和游戏流量精准分配，提高访问速度和网络稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 如何防止流量被 DPI 检测？</h5></div>
+    <div class="panel-heading"><h5>V2Ray 的流量分流规则支持哪些条件？</h5></div>
     <div class="panel-body">
-        通过协议插件和混淆方式可以模拟正常 HTTPS 或 HTTP 流量，隐藏真实流量特征。合理配置混淆插件和加密方式，可以有效绕过 DPI 检测，保证连接稳定性和长期可用性。<hr />    </div>
+        V2Ray 支持按域名、IP、端口、协议或用户标签进行分流。用户可灵活设置国内直连、国外代理或特定节点，实现精准控制和网络优化。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 用户流量配额如何设置？</h5></div>
@@ -447,29 +448,14 @@ A：理论上可以，但同时运行可能会造成冲突，建议仅启用一�
         管理员可为每个用户设置带宽和流量上限，超出限制时可降速或阻止访问。确保服务器资源合理分配，避免单用户占用过多带宽，提高整体网络公平性和使用效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 能否直接读取 Clash 配置？</h5></div>
-    <div class="panel-body">
-        Sing-box 原生支持 Clash YAML 格式的导入，会自动解析成自身 JSON 结构。虽然部分脚本功能不兼容，但节点和规则可以正常使用，迁移过程非常平滑。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 的重写脚本可以实现哪些功能？</h5></div>
-    <div class="panel-body">
-        QuantumultX 支持 JavaScript 重写脚本，可修改请求头、响应内容、跳转 URL、广告屏蔽和定制化流量处理。结合策略组可实现个性化网络访问和优化，提高用户体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何实现精确域名分流？</h5></div>
-    <div class="panel-body">
-        Sing-box 可以按域名设置分流规则，将不同流量发送到指定节点。结合策略组使用，可实现网页、视频和游戏流量精准分配，提高访问速度和网络稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>V2Ray 的路由规则如何实现国内直连？</h5></div>
     <div class="panel-body">
         通过配置域名列表或 IP 段，将国内流量指向直连出口，而国外流量走代理节点。结合策略组和定期更新规则，可保持国内访问速度，同时优化海外访问体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 在使用订阅时要注意什么？</h5></div>
+    <div class="panel-heading"><h5>VLess 为什么被认为是未来趋势？</h5></div>
     <div class="panel-body">
-        在 Shadowrocket 中添加订阅时，应确保链接以 https 开头且格式正确。此外，若节点更新失败，可尝试关闭缓存或重新获取订阅链接，以保证配置文件同步最新节点数据。<hr />    </div>
+        VLess 去掉了内置加密层，改为依赖外部 TLS 进行安全通信，这使其更轻量化且更灵活。它能与 Hysteria、Reality 等现代传输方式结合使用，适应性更强，是取代 Vmess 的新标准。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 是否支持多客户端节点管理？</h5></div>
@@ -477,9 +463,24 @@ A：理论上可以，但同时运行可能会造成冲突，建议仅启用一�
         支持。Nekobox 可以独立管理 Shadowsocks、Clash 等客户端节点，互不干扰。结合策略组，可实现多客户端流量分流和网络优化，提高节点管理效率和使用便利性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的流量分流规则支持哪些条件？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 能否直接读取 Clash 配置？</h5></div>
     <div class="panel-body">
-        V2Ray 支持按域名、IP、端口、协议或用户标签进行分流。用户可灵活设置国内直连、国外代理或特定节点，实现精准控制和网络优化。    </div>
+        Sing-box 原生支持 Clash YAML 格式的导入，会自动解析成自身 JSON 结构。虽然部分脚本功能不兼容，但节点和规则可以正常使用，迁移过程非常平滑。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 如何防止流量被 DPI 检测？</h5></div>
+    <div class="panel-body">
+        通过协议插件和混淆方式可以模拟正常 HTTPS 或 HTTP 流量，隐藏真实流量特征。合理配置混淆插件和加密方式，可以有效绕过 DPI 检测，保证连接稳定性和长期可用性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>QuantumultX 的重写脚本可以实现哪些功能？</h5></div>
+    <div class="panel-body">
+        QuantumultX 支持 JavaScript 重写脚本，可修改请求头、响应内容、跳转 URL、广告屏蔽和定制化流量处理。结合策略组可实现个性化网络访问和优化，提高用户体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Shadowrocket 在使用订阅时要注意什么？</h5></div>
+    <div class="panel-body">
+        在 Shadowrocket 中添加订阅时，应确保链接以 https 开头且格式正确。此外，若节点更新失败，可尝试关闭缓存或重新获取订阅链接，以保证配置文件同步最新节点数据。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -508,16 +509,16 @@ A：理论上可以，但同时运行可能会造成冲突，建议仅启用一�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-3-clash-verge-rev-node.htm" title="APP机场 - 11月3日20.9M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月3日20.9M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-26-clash-node-github.htm" title="APP机场 - 10月26日21.7M/S|免费SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月26日21.7M/S|免费SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-3-node-share.htm" title="APP机场 - 10月3日21.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月3日21.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-18-node-share.htm" title="APP机场 - 10月18日22.4M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月18日22.4M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-13-clash-verge-rev-node.htm" title="APP机场 - 10月13日22.9M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月13日22.9M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-23-clash-verge-rev-node-github.htm" title="APP机场 - 10月23日20M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月23日20M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-2-clash-node-daily-updates.htm" title="APP机场 - 11月2日22.7M/S|免费Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月2日22.7M/S|免费Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-8-clash-stash.htm" title="APP机场 - 10月8日18.4M/S|免费Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月8日18.4M/S|免费Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-17-node-share.htm" title="APP机场 - 11月17日21.2M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月17日21.2M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-5-node-share.htm" title="APP机场 - 11月5日20.7M/S|免费Clash节点/SSR节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月5日20.7M/S|免费Clash节点/SSR节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-11-clash-verge-rev-github.htm" title="APP机场 - 11月11日21.5M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月11日21.5M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-4-clash-verge-rev-node-share.htm" title="APP机场 - 11月4日19.7M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月4日19.7M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-16-clash-verge-rev-node.htm" title="APP机场 - 10月16日20.5M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月16日20.5M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-9-node-share.htm" title="APP机场 - 11月9日18.4M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月9日18.4M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-6-node-share.htm" title="APP机场 - 11月6日21.2M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月6日21.2M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-3-node-share.htm" title="APP机场 - 10月3日21.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月3日21.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-9-clash-node-github.htm" title="APP机场 - 10月9日19.5M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月9日19.5M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-15-clash-stash-node.htm" title="APP机场 - 10月15日21.3M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐，V2rayC梯子购买推荐">APP机场 - 10月15日21.3M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-10-clash-verge-rev-node-github.htm" title="APP机场 - 11月10日22.9M/S|免费SSR节点/Clash节点/Shadowrocket节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐">APP机场 - 11月10日22.9M/S|免费SSR节点/Clash节点/Shadowrocket节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -529,7 +530,7 @@ A：理论上可以，但同时运行可能会造成冲突，建议仅启用一�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">17</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">24</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
