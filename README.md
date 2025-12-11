@@ -1,4 +1,4 @@
-# APP机场 - 12月4日18.2M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐  更新时间 2025-12-04 09:36:50
+# APP机场 - 12月11日19.6M/S|免费Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，V2rayC梯子购买推荐  更新时间 2025-12-11 09:28:12
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://appjichang.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://appjichang.github.io/uploads/2025/12/0-20251204.yaml
-- https://appjichang.github.io/uploads/2025/12/1-20251204.yaml
-- https://appjichang.github.io/uploads/2025/12/2-20251204.yaml
-- https://appjichang.github.io/uploads/2025/12/3-20251204.yaml
-- https://appjichang.github.io/uploads/2025/12/4-20251204.yaml
+- https://appjichang.github.io/uploads/2025/12/0-20251211.yaml
+- https://appjichang.github.io/uploads/2025/12/1-20251211.yaml
+- https://appjichang.github.io/uploads/2025/12/2-20251211.yaml
+- https://appjichang.github.io/uploads/2025/12/3-20251211.yaml
+- https://appjichang.github.io/uploads/2025/12/4-20251211.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://appjichang.github.io/uploads/2025/12/0-20251204.txt
-- https://appjichang.github.io/uploads/2025/12/1-20251204.txt
-- https://appjichang.github.io/uploads/2025/12/2-20251204.txt
-- https://appjichang.github.io/uploads/2025/12/3-20251204.txt
-- https://appjichang.github.io/uploads/2025/12/4-20251204.txt
+- https://appjichang.github.io/uploads/2025/12/0-20251211.txt
+- https://appjichang.github.io/uploads/2025/12/1-20251211.txt
+- https://appjichang.github.io/uploads/2025/12/2-20251211.txt
+- https://appjichang.github.io/uploads/2025/12/3-20251211.txt
+- https://appjichang.github.io/uploads/2025/12/4-20251211.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://appjichang.github.io/uploads/2025/12/20251204.json
+- https://appjichang.github.io/uploads/2025/12/20251211.json
 
 ## 更多Clash节点订阅 ：
 
