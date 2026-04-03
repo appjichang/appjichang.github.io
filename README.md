@@ -1,4 +1,4 @@
-# APP机场 - 3月27日21M/S|免费Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，V2rayC梯子购买推荐  更新时间 2026-03-27 16:53:48
+# APP机场 - 4月3日22.9M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐  更新时间 2026-04-03 09:15:07
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://appjichang.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://appjichang.github.io/uploads/2026/03/0-20260327.yaml
-- https://appjichang.github.io/uploads/2026/03/1-20260327.yaml
-- https://appjichang.github.io/uploads/2026/03/2-20260327.yaml
-- https://appjichang.github.io/uploads/2026/03/3-20260327.yaml
-- https://appjichang.github.io/uploads/2026/03/4-20260327.yaml
+- https://appjichang.github.io/uploads/2026/04/0-20260403.yaml
+- https://appjichang.github.io/uploads/2026/04/1-20260403.yaml
+- https://appjichang.github.io/uploads/2026/04/2-20260403.yaml
+- https://appjichang.github.io/uploads/2026/04/3-20260403.yaml
+- https://appjichang.github.io/uploads/2026/04/4-20260403.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://appjichang.github.io/uploads/2026/03/0-20260327.txt
-- https://appjichang.github.io/uploads/2026/03/1-20260327.txt
-- https://appjichang.github.io/uploads/2026/03/2-20260327.txt
-- https://appjichang.github.io/uploads/2026/03/3-20260327.txt
-- https://appjichang.github.io/uploads/2026/03/4-20260327.txt
+- https://appjichang.github.io/uploads/2026/04/0-20260403.txt
+- https://appjichang.github.io/uploads/2026/04/1-20260403.txt
+- https://appjichang.github.io/uploads/2026/04/2-20260403.txt
+- https://appjichang.github.io/uploads/2026/04/3-20260403.txt
+- https://appjichang.github.io/uploads/2026/04/4-20260403.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://appjichang.github.io/uploads/2026/03/20260327.json
+- https://appjichang.github.io/uploads/2026/04/20260403.json
 
 ## 更多Clash节点订阅 ：
 
